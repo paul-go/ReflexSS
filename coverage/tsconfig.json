@@ -1,7 +1,7 @@
 {
-	"extends": "../tsconfig.standard.json",,
+	"extends": "../tsconfig.standard.json",
 	"compilerOptions": {
-		"outFile": "./build/reflex-ss-test.js"
+		"outFile": "./build/reflex-ss-coverage.js"
 	},
 	"include": [
 		"**/*.ts"
@@ -10,9 +10,5 @@
 		{ "path": "../../ReflexCore/core" },
 		{ "path": "../../ReflexML/core" },
 		{ "path": "../../ReflexSS/core" }
-	],
-	"moduless": {
-		"port": 7071,
-		"verbose": true
-	}
+	]
 }
